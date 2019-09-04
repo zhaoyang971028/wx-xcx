@@ -1,0 +1,43 @@
+<view class="body">
+  <view class="title">
+    <view class="title-id"></view>
+  </view>
+  <view class="user">
+    <view class="user-img">
+      <image src="../../imgs/4374da8d03979ee2132bfcfc36cb50ce_20180322084057_16721.jpg" class="user-img1"></image>
+    </view>
+    <view class="user-msg">
+      <view class="user-id">做个梦给你</view>
+      <view class="award">
+        <view class="award-1">兑换奖品|</view>
+        <view class="award-2">
+          <image src="../../imgs/pre_icon.png" class="award-2-img"></image>0
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="input">
+    <view class="input-img">
+      <view class="input-img1">
+        <image src="../../imgs/O(09ZK~8(`2@TIE(_`PDRNV.png" class="input-img1-1"></image>
+      </view>
+      <view class="input-img2">
+        <image src="../../imgs/OY]QC]5`VL4@~~@JR]G_A[B.png" class="input-img2-1"></image>
+      </view>
+    </view>
+    <view class="input-box">
+      <view class="input-search">
+        <image src="../../imgs/search (1).png" class="input-search1"></image>
+      </view>
+      <input placeholder="留学数学满分课堂"></input>
+      <view class="input-camera">
+        <image src="../../imgs/camera.png" class="input-camera1"></image>
+      </view>
+    </view>
+  </view>
+   <view class="study-task">
+    <view class="study-task1"><image src="../../imgs/pen (1).png" class="pen"></image></view>
+    <view class="study-task2">学习任务</view>
+    <view class="study-task3">开启一个新的词汇任务</view>
+    </view>
+</view>

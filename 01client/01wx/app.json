@@ -1,13 +1,49 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home/home"
   ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#cccccc",
+    "navigationStyle": "custom",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#fb5d5d",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "imgs/index.png",
+        "selectedIconPath": "imgs/index_select.png",
+        "text": "满分课堂"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "imgs/write.png",
+        "selectedIconPath": "imgs/write_select.png",
+        "text": "做题"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "imgs/find.png",
+        "selectedIconPath": "imgs/find_select.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "imgs/user.png",
+        "selectedIconPath": "imgs/user_select.png",
+        "text": "个人中心"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }
