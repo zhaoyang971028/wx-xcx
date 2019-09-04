@@ -1,6 +1,5 @@
 .body {
   width: 100%;
-  height: 520px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,14 +139,15 @@
   height: 20px;
 }
 .study-task {
+  margin-top: 100px;
   width: 100%;
-  height: 80px;
+  height: 65px;
   display: flex;
   background-color: #62AED9;
 }
 .study-task1 {
-  width: 60px;
-  height: 80px;
+  width: 40px;
+  height: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,17 +158,93 @@
   color: #ffffff;
 }
 .study-task2 {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 65px;
   display: flex;
   align-items: center;
   color: #ffffff;
 }
 .study-task3 {
+  padding-left: 10px;
   width: 180px;
-  height: 80px;
+  height: 65px;
   display: flex;
   align-items: center;
   color: #ACD6EC;
-  font-size: 14px;
+  font-size: 12px;
+}
+.review-task {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  background-color: #62AED9;
+}
+.review-task1 {
+  width: 40px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3B86B3;
+}
+.history {
+  width: 22px;
+  height: 22px;
+  color: #ffffff;
+}
+.review-task2 {
+  width: 70px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background-color: #3B86B3;
+}
+.review-task3 {
+  padding-left: 10px;
+  width: 40px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  color: #ACD6EC;
+  font-size: 12px;
+  background-color: #3B86B3;
+}
+.review-task4 {
+  width: 50px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  background-color: #3B86B3;
+}
+.comfirm {
+  width: 12px;
+  height: 12px;
+}
+.new-word {
+  width: 110px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3478A1;
+}
+.new-word-img {
+  margin-left: 2px;
+  width: 30px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+.book {
+  width: 20px;
+  height: 20px;
+}
+.new-word-book {
+  width: 70px;
+  height: 65px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
 }

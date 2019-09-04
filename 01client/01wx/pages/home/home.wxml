@@ -1,4 +1,4 @@
-<view class="body">
+<view class="body" style="width:{{width}}">
   <view class="title">
     <view class="title-id"></view>
   </view>
@@ -36,8 +36,18 @@
     </view>
   </view>
    <view class="study-task">
-    <view class="study-task1"><image src="../../imgs/pen (1).png" class="pen"></image></view>
-    <view class="study-task2">学习任务</view>
-    <view class="study-task3">开启一个新的词汇任务</view>
+    <view class="study-task1"><image src="../../imgs/jichu (1).png" class="pen"></image></view>
+    <view class="study-task2">使用教程</view>
+    <view class="study-task3">基本基础教学及图形计算</view>
+    </view>
+    <view class="review-task">
+    <view class="review-task1"><image src="../../imgs/shipin.png" class="history"></image></view>
+    <view class="review-task2">视频教学</view>
+    <view class="review-task3">已完成</view>
+    <view class="review-task4"><image src="../../imgs/comfirm.png" class="comfirm"></image></view>
+    <view class="new-word">
+    <view class="new-word-img"><image src="../../imgs/donghua.png" class="book"></image></view>
+    <view class="new-word-book">动画演示</view>
+    </view>
     </view>
 </view>
