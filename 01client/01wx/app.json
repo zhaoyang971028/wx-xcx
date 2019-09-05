@@ -1,6 +1,8 @@
 {
   "pages": [
-    "pages/home/home"
+    "pages/home/home",
+    "pages/discover/discover",
+    "pages/use/use"
   ],
   "permission": {
     "scope.userLocation": {
@@ -12,38 +14,6 @@
     "navigationBarBackgroundColor": "#ffffff",
     "navigationStyle": "custom",
     "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "color": "#ffffff",
-    "selectedColor": "#ccc",
-    "borderStyle": "white",
-    "backgroundColor": "#112B56",
-    "list": [
-      {
-        "pagePath": "pages/home/home",
-        "iconPath": "imgs/book (3).png",
-        "selectedIconPath": "imgs/book (2).png",
-        "text": "满分课堂"
-      },
-      {
-        "pagePath": "pages/home/home",
-        "iconPath": "imgs/tiku (1).png",
-        "selectedIconPath": "imgs/tiku.png",
-        "text": "做题"
-      },
-      {
-        "pagePath": "pages/home/home",
-        "iconPath": "imgs/faxian (2).png",
-        "selectedIconPath": "imgs/faxian (1).png",
-        "text": "发现"
-      },
-      {
-        "pagePath": "pages/home/home",
-        "iconPath": "imgs/geren (1).png",
-        "selectedIconPath": "imgs/geren (2).png",
-        "text": "个人中心"
-      }
-    ]
   },
   "sitemapLocation": "sitemap.json"
 }

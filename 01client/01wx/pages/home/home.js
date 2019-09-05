@@ -5,66 +5,56 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    height: '500',
+    indexSelect: 0,
+    topics: [{
+      id: 0,
+      title: "满分课堂"
+    }, {
+      id: 1,
+      title: "留学指南"
+    }, {
+      id: 2,
+      title: "发现"
+    }, {
+      id: 3,
+      title: "个人中心"
+    }]
   },
+  onLoad: function () {
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-    this.setData({
-      height: wx.getSystemInfoSync().windowHeight,
-      width: wx.getSystemInfoSync().windowWidth
+
+    let that = this;
+    wx.getSystemInfo({
+      success: function (res) {
+        //计算屏幕的高度
+        let buffer = (750 / res.windowWidth) * res.windowHeight - 80;
+        that.setData({
+          height: buffer
+        });
+      },
     })
 
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  clickTopItem: function (res) {
+    //获得传递过来的数据
+    console.log(res)
+    let id = res.currentTarget.dataset.zy;
+    //把index换成id
+    this.setData({
+      indexSelect: id
+    });
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  toExaminationInfor: function () {
+    wx.navigateTo({
+      url: '../discover/discover',
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  toUse: function () {
+    wx.navigateTo({
+      url: '../use/use',
+    })
   }
 })
+
+ 

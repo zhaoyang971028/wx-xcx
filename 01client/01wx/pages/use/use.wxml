@@ -1,0 +1,66 @@
+<view class="body">
+  <view class="cover">
+    <image src="../../imgs/center.jpg" class="cover-img"></image>
+    <view class="back" bindtap="toHome"><image src="../../imgs/back.png" class="back-img"></image></view>
+  </view>
+  <scroll-view class="view1" scroll-x="true">
+    <view class="use">
+      <view class="news">热文推荐</view>
+    </view>
+    <view class="video">
+      <view class="news">人物</view>
+    </view>
+    <view class="animated">
+      <view class="news">教育</view>
+    </view>
+    <view class="animated">
+      <view class="news">人生智慧</view>
+    </view>
+  </scroll-view>
+  <view class="underline"></view>
+  <view class="view2">
+    <view class="foundation-img">
+      <image src="../../imgs/news-1.jpg" class="news-1"></image>
+    </view>
+    <view class="foundation-font">
+      <view class="f1">TI-Nspire 歼20战机7机同框</view>
+      <view class="f2">
+        <view class="f2-1">近日,空军发布励志宣传片《蓝天有我感恩有您》,空军歼-20战机7机同框首次亮相。</view>
+
+      </view>
+    </view>
+  </view>
+  <view class="view2">
+    <view class="foundation-img">
+      <image src="../../imgs/news-2.jpg" class="news-1"></image>
+    </view>
+    <view class="foundation-font">
+      <view class="f1">油价迎第十次上调</view>
+      <view class="f2">
+        <view class="f2-1">油价迎第十次上调，截止9月3日，国际原油市场WTI原油期货价格报55.10美元/桶。</view>
+      </view>
+    </view>
+  </view>
+  <view class="view2">
+    <view class="foundation-img">
+      <image src="../../imgs/news-3.jpg" class="news-1"></image>
+    </view>
+    <view class="foundation-font">
+      <view class="f1">网友半年捐18亿</view>
+      <view class="f2">
+        <view class="f2-1">初步统计，全国网友上半年累计捐献善款超过18亿元。</view>
+      </view>
+    </view>
+  </view>
+  <view class="view2">
+    <view class="foundation-img">
+      <image src="../../imgs/news-4.jpg" class="news-1"></image>
+    </view>
+    <view class="foundation-font">
+      <view class="f1">买机票不登机被捕</view>
+      <view class="f2">
+        <view class="f2-1">男子为送妻子买机票不登机被捕 将面临2万新元罚款或2年监禁。</view>
+      </view>
+    </view>
+  </view>
+</view>

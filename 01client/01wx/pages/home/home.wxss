@@ -139,7 +139,7 @@
   height: 20px;
 }
 .study-task {
-  margin-top: 100px;
+  margin-top: 93px;
   width: 100%;
   height: 65px;
   display: flex;
@@ -247,4 +247,123 @@
   display: flex;
   align-items: center;
   font-size: 16px;
+}
+.buttom {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  background-color: #112B56;
+}
+.buttom-font {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  background-color: #112B56;
+}
+.buttom-font-1 {
+  width: 25%;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttom-font-1-1 {
+  width: 70px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttom-font-1-1-1{
+  font-size: 12px;
+  color: #ffffff;
+}
+.buttom-font-1-1-2{
+  font-size: 12px;
+  color: #cccccc;
+}
+.buttom-1 {
+  width: 25%;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttom-1-1 {
+  width: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttom-img {
+  width: 20px;
+  height: 20px;
+}
+.buttom-2 {
+  width: 25%;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttom-2-1 {
+  width: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttom-img {
+  width: 30px;
+  height: 20px;
+}
+.buttom-3 {
+  width: 25%;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttom-3-1 {
+  width: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttom-img {
+  width: 20px;
+  height: 20px;
+}
+.buttom-3-2 {
+  font-size: 12px;
+  color: #ffffff;
+}
+.Bottom-3-2 {
+  color: #cccccc;
+  font-size: 12px;
+}
+.buttom-4 {
+  width: 25%;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttom-4-1 {
+  width: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttom-img {
+  width: 20px;
+  height: 20px;
 }
