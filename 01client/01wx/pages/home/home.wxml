@@ -1,13 +1,20 @@
+
 <view class="body" style="width:{{width}}">
   <view class="title">
     <view class="title-id"></view>
   </view>
   <view class="user">
-    <view class="user-img">
-      <image src="../../imgs/4374da8d03979ee2132bfcfc36cb50ce_20180322084057_16721.jpg" class="user-img1"></image>
+    <view class="user-img1" bindtap="userMsg">
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="getbutton"> 
+          获取头像        
+        </button>
+        <block wx:else>
+        <!-- bindtap="bindViewTap" -->
+          <image  class="userinfo-avatar1" src="{{userInfo.avatarUrl}}" mode="cover" ></image>
+        </block>
     </view>
     <view class="user-msg">
-      <view class="user-id">做个梦给你</view>
+      <text class="user-id">{{userInfo.nickName}}</text> 
       <view class="award">
         <view class="award-1">兑换奖品|</view>
         <view class="award-2">
@@ -44,38 +51,38 @@
   </view>
   <view class="review-task">
     <view class="review-task1">
-      <image src="../../imgs/shipin.png" class="history"></image>
+      <image src="../../imgs/shipin.png" class="history"  bindtap='toVedio'></image>
     </view>
-    <view class="review-task2">视频教学</view>
-    <view class="review-task3">已完成</view>
-    <view class="review-task4">
+    <view class="review-task2" bindtap='toVedio' >视频教学</view>
+    <view class="review-task3"  bindtap='toVedio'>已完成</view>
+    <view class="review-task4"  bindtap='toVedio'>
       <image src="../../imgs/comfirm.png" class="comfirm"></image>
     </view>
     <view class="new-word">
       <view class="new-word-img">
         <image src="../../imgs/donghua.png" class="book"></image>
       </view>
-      <view class="new-word-book">动画演示</view>
+      <view class="new-word-book" bindtap='toPlan'>学习计划</view>
     </view>
   </view>
   <view class="buttom">
     <view class="buttom-1">
-      <view class="buttom-1-1" bindtap='clickTopItem'>
+      <view class="buttom-1-1" bindtap='clickTopItem' data-id='0'>
         <image src="../../imgs/book (3).png" class="buttom-img"></image>
       </view>
     </view>
     <view class="buttom-2">
-      <view class="buttom-2-1" bindtap='clickTopItem'>
+      <view class="buttom-2-1" bindtap='clickTopItem' data-id='1'>
         <image src="../../imgs/tiku (1).png" class="buttom-img"></image>
       </view>
     </view>
     <view class="buttom-3">
-      <view class="buttom-3-1" bindtap='clickTopItem' bindtap="toExaminationInfor">
+      <view class="buttom-3-1" bindtap='clickTopItem' data-id='2'>
         <image src="../../imgs/faxian (2).png" class="buttom-img"></image>
       </view>
     </view>
     <view class="buttom-4">
-      <view class="buttom-4-1" bindtap='clickTopItem'>
+      <view class="buttom-4-1" bindtap='clickTopItem' data-id='3'>
         <image src="../../imgs/geren (1).png" class="buttom-img"></image>
       </view>
     </view>

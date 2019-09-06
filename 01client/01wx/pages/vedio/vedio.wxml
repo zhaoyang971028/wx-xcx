@@ -1,0 +1,153 @@
+<view class="body4">
+  <view class="box">
+    <image style="width:750rpx;height:260rpx" src="../../imgs/math2.2.png">
+    </image>
+    <view class='img3' bindtap='back'>
+      <image style="width:50rpx;height:50rpx" src="../../imgs/返回.png">
+      </image>
+    </view>
+
+    <view class='img4' bindtap='backHome'>
+      <image style="width:50rpx;height:50rpx" src="../../imgs/home1.png">
+      </image>
+    </view>
+  </view>
+
+  <view class="box1">
+    <view class="box1-t">
+      <view class="image">
+        <image class="img" src="../../imgs/list.png"></image>
+      </view>
+      <view class="title">最新消息</view>
+    </view>
+
+    <view class="box1-m">
+      <view class="left1">
+        <view class="msg1">七夕数学竞赛</view>
+        <view class="msg2">2019-08-07</view>
+      </view>
+      <view class="right1">
+        <image style="width:150rpx;height:150rpx;border-radius:50%" src="../../imgs/active.png"></image>
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="box1-m">
+      <view class="left1">
+        <view class="msg3">五一高中数学提高班报名啦</view>
+        <view class="msg4">2019-4-25</view>
+      </view>
+      <view class="right1">
+        <image style="width:150rpx;height:150rpx;border-radius:50%" src="../../imgs/active1.png"></image>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="box1">
+    <view class="box1-t">
+      <view class="image">
+        <image class="img" src="../../imgs/list.png"></image>
+      </view>
+      <view class="title">推荐课程</view>
+    </view>
+
+    <view class="box1-m">
+      <view class="left1">
+        <view class="msg1">数学建模教程</view>
+        <view class="msg2">555人观看</view>
+      </view>
+      <view class="m">#比赛</view>
+      <view class="right2">
+        <image style="width:200rpx;height:150rpx; border-radius: 10%" src="../../imgs/math4.jpg"></image>
+      </view>
+    </view>
+    <view class="line1"></view>
+    <view class="box1-m">
+      <view class="left1">
+        <view class="msg1">数据结构和算法</view>
+        <view class="msg2">111人观看</view>
+      </view>
+      <view class="m">#算法</view>
+      <view class="right2">
+        <image style="width:200rpx;height:150rpx; border-radius: 10%" src="../../imgs/math6.png"></image>
+      </view>
+    </view>
+    <view class="line2"></view>
+    <view class="box1-m">
+      <view class="left1">
+        <view class="msg1">每日一课微积分</view>
+        <view class="msg2">232人在看</view>
+      </view>
+      <view class="m">#课堂</view>
+      <view class="right2">
+        <image style="width:200rpx;height:150rpx; border-radius: 10%" src="../../imgs/math1.jpg"></image>
+      </view>
+    </view>
+    <view class="line3"></view>
+    <view class="box1-m">
+      <view class="left1">
+        <view class="msg1">高等数学在线</view>
+        <view class="msg2">323人观看</view>
+      </view>
+      <view class="m">#高数</view>
+      <view class="right2">
+        <image style="width:200rpx;height:150rpx; border-radius: 10%" src="../../imgs/math3.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="line4"></view>
+<view class="box1-t1">
+  <view class="image">
+    <image class="img" src="../../imgs/prize.png"></image>
+  </view>
+  <view class="title">明星老师</view>
+</view>
+
+<view class='pic'>
+  <view class='content' catchtap='changeOil'>
+    <scroll-view style='width:750rpx;white-space: nowrap;' scroll-x="true">
+      <view class='{{num==1?"active":""}}' data-num='1' style=" width:50px; height: 50px; display: inline-block; border-radius:50%;overflow: hidden;background-color:#9E9EFF">
+        <image style="width: 50px; height: 50px; border-radius:50%" src="../../imgs/teacher1.png"></image>
+      </view>
+      <view class='{{num==2?"active":""}}' data-num='2' style=" width:50px; height: 50px; display: inline-block;border-radius:50%;overflow: hidden;background-color:#A6E6FF;margin-left:30px">
+        <image style="width: 50px; height: 50px;border-radius:50%" src="../../imgs/teacher2.png"></image>
+
+      </view>
+      <view class='{{num==3?"active":""}}' data-num='3' style=" width:50px; height:50px;display: inline-block;border-radius:50%;overflow: hidden;background-color:#8CD1EE;margin-left:30px">
+        <image style="width: 50px; height: 50px;border-radius:50%" src="../../imgs/teacher3.png"></image>
+      </view>
+      <view class='{{num==4?"active":""}}' data-num='4' style=" width:50px; height:50px; display: inline-block;border-radius:50%;overflow: hidden;background-color:#9292FF;margin-left:30px">
+        <image style="width: 50px; height: 50px;border-radius:50%" src="../../imgs/teacher4.png"></image>
+      </view>
+      <view class='{{num==5?"active":""}}' data-num='5' style=" width:50px; height: 50px; display: inline-block;border-radius:50%;overflow: hidden;background-color:#99DDFF;margin-left:30px">
+        <image style="width: 50px; height: 50px;border-radius:50%" src="../../imgs/teacher5.png"></image>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+<!-- 
+<view >
+<image class="kefu" src="../../imgs/kefu.png"></image>
+</view> -->
+<!-- </view> -->
+<!-- <view  class="view" style=" top:{{top}}px;left:{{left}}px;margin: 10% 0rpx 0rpx 0%;" bindtouchmove="setTouchMove">
+<view  bindtap="addInfo">
+<image style="height:50px;width:50px;" src="../../imgs/kefu1.png"></image>
+</view>
+ </view> -->
+
+<view class='kefu' bindtap='phoneCall'>
+  <image src="../../imgs/kefu.png"></image>
+</view>
+
+<!-- <view  class="back" bindtap='redirectTo'>
+     <image src="../../imgs/back.png"></image>
+</view> -->
+<!-- <view class='back' bindtap='toNavigate'>
+     <image src="../../imgs/back.png"></image>
+  </view> -->
+<!-- <navigator class='back' url='../page1/page1' open-type="redirectTo">
+   <image src="../../imgs/back.png"></image>
+  </navigator> -->

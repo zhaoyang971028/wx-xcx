@@ -1,7 +1,9 @@
-<view class="body">
+<view class="body1">
   <view class="cover">
     <image src="../../imgs/center.jpg" class="cover-img"></image>
-    <view class="back" bindtap="toHome"><image src="../../imgs/back.png" class="back-img"></image></view>
+    <view class="back" bindtap="toHome"  style="position: fixed">
+      <image src="../../imgs/back.png" class="back-img"></image>
+    </view>
   </view>
   <scroll-view class="view1" scroll-x="true">
     <view class="use">

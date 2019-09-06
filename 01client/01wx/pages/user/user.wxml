@@ -1,0 +1,82 @@
+
+<view class="usercontainertop" >
+  <image src="../../imgs/userbg2.jpg" class="userbg"></image>
+  <view class="topuserIcon" bindtap="backhome">
+      <image src="../../imgs/返回.png" class="userIcon" ></image>
+      <image src="../../imgs/home1.png" class="userIcon"></image>
+  </view>
+  <view class="usertop" >
+    <view class="ut-right" bindtap='chooseImage' >
+       <view class="userinfo">
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="getbutton"> 
+          获取头像        
+        </button>
+        <block wx:else>
+        <!-- bindtap="bindViewTap" -->
+          <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover" ></image>
+        </block>
+    </view> 
+      <!--  <image wx:if="{{tempFilePaths!=null}}" class='img' src="{{tempFilePaths}}"></image> -->   
+         <!--  <open-data type="userAvatarUrl" class="userinfo-avatar"></open-data> -->
+    </view>
+      <view class="ut-left">
+        <text class="username">{{userInfo.nickName}}</text> 
+        <image class="useredit" src="../../imgs/mt_editor.png"></image>
+    </view>
+  </view>
+
+  <view class="studycount">
+      <view class="studycount-leftright ">
+        <view>学习课程数</view>
+        <view class="study">
+          <view class="studyday">0</view>
+          <view>个</view>
+        </view>
+      </view>
+      <view class="middleline"></view>
+      <view class="studycount-leftright">
+        <view>坚持天数</view>
+        <view class="study">
+          <view class="studyday">0</view>
+          <view>天</view>
+        </view>
+      </view>
+      
+  </view>
+
+
+</view>
+<view class="userbottom" style='height:{{height}}rpx'>
+  <view class="userbottom-msg">
+    <view class="b-msg">
+      <view class="b-msg-l">
+        <image src="../../imgs/userbuttom1.png" class="msg-img"></image>
+        考试估分
+      </view>
+      <view class="b-msg-r">></view>
+    </view>
+    <view class="b-msg">
+      <view class="b-msg-l">
+        <image src="../../imgs/userbuttom3.png" class="msg-img"></image>
+        个人信息
+      </view>
+      <view class="b-msg-r">></view>
+    </view>
+    <view class="b-msg">
+      <view class="b-msg-l">
+        <image src="../../imgs/userbuttom4.png" class="msg-imgS"></image>
+        设置中心
+      </view>
+      <view class="b-msg-r">></view>
+    </view>
+    <view class="b-msgS">
+      <view class="b-msg-l">
+        <image src="../../imgs/userbuttom2.png" class="msg-imgS"></image>
+        学习历史
+      </view>
+      <view class="b-msg-r">></view>
+    </view>
+  </view>
+  <view class="last">our team is best</view>
+</view>
+

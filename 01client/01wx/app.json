@@ -1,8 +1,11 @@
 {
-  "pages": [
+    "pages": [
+    
     "pages/home/home",
     "pages/discover/discover",
-    "pages/use/use"
+    "pages/use/use",
+    "pages/vedio/vedio",
+    "pages/plan/plan"
   ],
   "permission": {
     "scope.userLocation": {
@@ -15,5 +18,9 @@
     "navigationStyle": "custom",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "usingComponents":{
+    "home":"pages/home/home",
+    "user":"pages/user/user"
+  }
 }

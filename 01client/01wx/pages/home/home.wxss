@@ -1,3 +1,12 @@
+/* image{
+  width: 50rpx;
+  height: 50rpx;
+} */
+.userinfo-avatar1{
+  width: 140rpx;
+  height: 140rpx;
+border-radius: 50%;
+}
 .body {
   width: 100%;
   display: flex;
@@ -7,363 +16,366 @@
 }
 .title {
   width: 100%;
-  height: 55px;
+  height: 110rpx;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 .title-id {
-  width: 100px;
-  height: 20px;
+  width: 200rpx;
+  height: 40rpx;
   display: flex;
   justify-content: center;
   color: #ffffff;
   font-weight: 700;
 }
 .user {
-  width: 290px;
-  height: 110px;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+width: 580rpx;
+height: 230rpx;
+margin-bottom: 20rpx;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 100rpx;
+
 }
 .user-msg {
-  width: 240px;
-  height: 60px;
+  width: 480rpx;
+  height: 120rpx;
   display: flex;
   flex-direction: column;
-  padding-left: 10px;
+  padding-left: 20rpx;
   justify-content: space-between;
 }
 .user-img {
-  width: 70px;
-  height: 70px;
+  width: 140rpx;
+  height: 140rpx;
+  overflow: hidden;
 }
 .user-img1 {
-  width: 70px;
-  height: 70px;
+  width: 140rpx;
+  height: 140rpx;
   border-radius: 50%;
 }
 .user-id {
-  width: 220px;
-  height: 25px;
+  width: 440rpx;
+  height: 50rpx;
   display: flex;
   color: #ffffff;
   font-size: 18px;
 }
 .award {
-  width: 100px;
-  height: 25px;
+  width: 200rpx;
+  height: 50rpx;
   display: flex;
   border-radius: 10px;
   background-color: #AFDDF5;
 }
 .award-1 {
-  padding-left: 5px;
-  width: 60px;
-  height: 25px;
-  font-size: 13px;
+  padding-left: 10rpx;
+  width: 120rpx;
+  height: 50rpx;
+  font-size: 26rpx;
   display: flex;
   align-items: center;
   color: #ffffff;
 }
 .award-2 {
-  padding-left: 2px;
-  width: 40px;
-  height: 25px;
+  padding-left: 4rpx;
+  width: 80rpx;
+  height: 50rpx;
   display: flex;
   align-items: center;
   color: #ffffff;
 }
 .award-2-img {
-  width: 20px;
-  height: 20px;
+  width: 40rpx;
+  height: 40rpx;
 }
 .input {
-  width: 290px;
-  height: 120px;
+  width: 580rpx;
+  height: 240rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .input-img {
-  width: 290px;
-  height: 73px;
+  width: 580rpx;
+  height: 146rpx;
   display: flex;
   justify-content: space-between;
 }
 .input-img1 {
   align-self: flex-end;
-  margin-left: 30px;
-  width: 49px;
-  height: 58px;
+  margin-left: 60rpx;
+  width: 98rpx;
+  height: 116rpx;
 }
 .input-img2 {
-  width: 100px;
-  height: 90px;
+  width: 200rpx;
+  height: 180rpx;
   display: flex;
 }
 .input-img1-1 {
-  width: 49px;
-  height: 58px;
+  width: 98rpx;
+  height: 116rpx;
 }
 .input-img2-1 {
-  width: 100px;
-  height: 73px;
+  width: 200rpx;
+  height: 146rpx;
 }
 .input-box {
   background-color: white;
-  width: 290px;
-  height: 47px;
+  width: 580rpx;
+  height: 94rpx;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 40rpx;
 }
 .input-search {
-  width: 20px;
-  height: 20px;
+  width: 40rpx;
+  height: 40rpx;
   
 }
 .input-search1 {
-  width: 20px;
-  height: 20px;
+  width: 40rpx;
+  height: 40rpx;
 }
 .input-camera {
-  width: 20px;
-  height: 20px;
+  width: 40rpx;
+  height: 40rpx;
 }
 .input-camera1 {
-  width: 20px;
-  height: 20px;
+  width: 40rpx;
+  height: 40rpx;
 }
 .study-task {
-  margin-top: 93px;
+  margin-top: 150rpx;
   width: 100%;
-  height: 65px;
+  height: 180rpx;
   display: flex;
   background-color: #62AED9;
 }
 .study-task1 {
-  width: 40px;
-  height: 65px;
+  width: 100rpx;
+  height: 180rpx;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .pen {
-  width: 18px;
-  height: 18px;
+  width: 36rpx;
+  height: 36rpx;
   color: #ffffff;
 }
 .study-task2 {
-  width: 70px;
-  height: 65px;
+  width: 180rpx;
+  height: 180rpx;
   display: flex;
   align-items: center;
   color: #ffffff;
 }
 .study-task3 {
-  padding-left: 10px;
-  width: 180px;
-  height: 65px;
+  padding-left: 20rpx;
+  width: 440rpx;
+  height: 180rpx;
   display: flex;
   align-items: center;
   color: #ACD6EC;
-  font-size: 12px;
+  font-size: 28rpx;
 }
 .review-task {
   width: 100%;
-  height: 65px;
+  height: 180rpx;
   display: flex;
   background-color: #62AED9;
 }
 .review-task1 {
-  width: 40px;
-  height: 65px;
+  width: 100rpx;
+  height: 180rpx;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #3B86B3;
 }
 .history {
-  width: 22px;
-  height: 22px;
+  width: 44rpx;
+  height: 44rpx;
   color: #ffffff;
 }
 .review-task2 {
-  width: 70px;
-  height: 65px;
+  width: 200rpx;
+  height: 180rpx;
   display: flex;
   align-items: center;
   color: #ffffff;
   background-color: #3B86B3;
 }
 .review-task3 {
-  padding-left: 10px;
-  width: 40px;
-  height: 65px;
+  padding-left: 20rpx;
+  width: 100rpx;
+  height: 180rpx;
   display: flex;
   align-items: center;
   color: #ACD6EC;
-  font-size: 12px;
+  font-size: 24rpx;
   background-color: #3B86B3;
 }
 .review-task4 {
-  width: 50px;
-  height: 65px;
+  width: 120rpx;
+  height: 180rpx;
   display: flex;
   align-items: center;
   background-color: #3B86B3;
 }
 .comfirm {
-  width: 12px;
-  height: 12px;
+  width: 24rpx;
+  height: 24rpx;
 }
 .new-word {
-  width: 110px;
-  height: 65px;
+  width: 220rpx;
+  height: 180rpx;
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: #3478A1;
 }
 .new-word-img {
-  margin-left: 2px;
-  width: 30px;
-  height: 65px;
+  margin-left: 4rpx;
+  width: 60rpx;
+  height: 180rpx;
   display: flex;
   align-items: center;
 }
 .book {
-  width: 20px;
-  height: 20px;
+  width: 40rpx;
+  height: 40rpx;
 }
 .new-word-book {
-  width: 70px;
-  height: 65px;
+  width: 160rpx;
+  height: 180rpx;
   color: #ffffff;
   display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 36rpx;
 }
 .buttom {
   width: 100%;
-  height: 30px;
+  height: 70rpx;
   display: flex;
   background-color: #112B56;
 }
 .buttom-font {
   width: 100%;
-  height: 20px;
+  height: 64rpx;
   display: flex;
   background-color: #112B56;
 }
 .buttom-font-1 {
   width: 25%;
-  height: 20px;
+  height: 60rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .buttom-font-1-1 {
-  width: 70px;
-  height: 20px;
+  width: 140rpx;
+  height: 60rpx;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .buttom-font-1-1-1{
-  font-size: 12px;
+  font-size: 28rpx;
   color: #ffffff;
 }
 .buttom-font-1-1-2{
-  font-size: 12px;
+  font-size: 28rpx;
   color: #cccccc;
 }
 .buttom-1 {
   width: 25%;
-  height: 30px;
+  height: 60rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .buttom-1-1 {
-  width: 50px;
-  height: 20px;
+  width: 100rpx;
+  height: 40rpx;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .buttom-img {
-  width: 20px;
-  height: 20px;
+  width: 40rpx;
+  height: 40rpx;
 }
 .buttom-2 {
   width: 25%;
-  height: 30px;
+  height: 60rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .buttom-2-1 {
-  width: 50px;
-  height: 20px;
+  width: 100rpx;
+  height: 40rpx;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 .buttom-img {
-  width: 30px;
-  height: 20px;
+  width: 60rpx;
+  height: 40rpx;
 }
 .buttom-3 {
   width: 25%;
-  height: 30px;
+  height: 60rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .buttom-3-1 {
-  width: 50px;
-  height: 20px;
+  width: 100rpx;
+  height: 40rpx;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 .buttom-img {
-  width: 20px;
-  height: 20px;
+  width: 40rpx;
+  height: 40rpx;
 }
 .buttom-3-2 {
-  font-size: 12px;
+  font-size: 28rpx;
   color: #ffffff;
 }
 .Bottom-3-2 {
   color: #cccccc;
-  font-size: 12px;
+  font-size: 28rpx;
 }
 .buttom-4 {
   width: 25%;
-  height: 30px;
+  height: 60rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .buttom-4-1 {
-  width: 50px;
-  height: 20px;
+  width: 100rpx;
+  height: 40rpx;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 .buttom-img {
-  width: 20px;
-  height: 20px;
+  width: 40rpx;
+  height: 40rpx;
 }

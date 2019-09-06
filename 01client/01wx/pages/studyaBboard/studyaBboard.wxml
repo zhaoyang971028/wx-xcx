@@ -1,0 +1,133 @@
+
+<view class="zong">
+   <view class="topuserIcon1" bindtap="backhome" >
+      <image src="../../imgs/返回.png" class="userIcon" ></image>
+      <image src="../../imgs/home1.png" class="userIcon"></image>
+  </view> 
+  <view class="topcontainer">
+  <view class="searchTab">
+    <image src="../../imgs/find.png" class="search"></image>
+    <view>搜索问题或回答</view>
+  </view>
+
+  <swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+    <block wx:for="{{bnrUrl}}" wx:for-index="index">
+      <swiper-item>
+        <image src='{{item.url}}' class='u-img-slide' mode="widthFix"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="questiontab-contain">
+  <view class="questiontab">
+    <view class="que-nr">
+      <view class="num">0</view>
+      <view class="text">我的发布</view>
+    </view>
+    <view class="que-nr">
+      <image src="../../imgs/yxnwrite.png" class="mywrite"></image>
+      <view class="text textS">发布问题</view>
+    </view>
+    <view class="que-nr">
+      <view class="num">0</view>
+      <view class="text">问题动态</view>
+    </view>
+  </view>
+  </view>
+
+
+  </view>
+  <!-- style="height:{{height}}rpx" -->
+  <view class="mainbody" >
+    <view class="q-square">
+      <view class="q-circle1"></view>
+      <view class="q-circle2"></view>
+      <view class="q-title">问答广场</view>
+      <view class="q-circle2"></view>
+      <view class="q-circle1"></view>
+    </view>
+    <view class="q-nr">
+      <view class="q-nrbodyTop">
+        <view class="icon-baoguo">
+          <image src="../../imgs/position.png" class="img-icon"></image>
+          待定
+        </view>
+        <view class="icon-baoguo">
+          <image src="../../imgs/topic.png" class="img-icon"></image>
+          大学留学
+        </view>
+      </view>
+      <view class="q-nrbodymiddle">
+        现在高三 了解到国外心理学比较好 想去留学有心理学专业好的学校推荐吗 预算不是很高
+      </view>
+      <view class="answerUser">
+        <image src="../../imgs/teacher1.png" class="techerIcon"></image>
+        <view>: 预算不高的话可以考虑日本呀~</view>
+      </view>
+      <text class="answer-bo" decode="{{true}}">5 回答&nbsp;&nbsp;.&nbsp;&nbsp;3 小时前</text>
+    </view>
+    <view class="q-nr">
+      <view class="q-nrbodyTop">
+        <view class="icon-baoguo">
+          <image src="../../imgs/position.png" class="img-icon"></image>
+          澳洲
+        </view>
+        <view class="icon-baoguo">
+          <image src="../../imgs/topic.png" class="img-icon"></image>
+          中学留学
+        </view>
+      </view>
+      <view class="q-nrbodymiddle">
+        高二在读不想高考想留学能在高三之前留学吗？有哪些推荐地方？费用大概多少少 要考雅思...
+      </view>
+      <view class="answerUser">
+        <image src="../../imgs/teacher2.png" class="techerIcon"></image>
+        <view>: 最快的方式是高二结束，出国读预考。注意考托福雅 .思的成绩</view>
+      </view>
+      <text class="answer-bo" decode="{{true}}">11 回答&nbsp;&nbsp;.&nbsp;&nbsp;1 小时前</text>
+    </view>
+    <view class="q-nr">
+      <view class="q-nrbodyTop">
+        <view class="icon-baoguo">
+          <image src="../../imgs/position.png" class="img-icon"></image>
+          西班牙
+        </view>
+        <view class="icon-baoguo">
+          <image src="../../imgs/topic.png" class="img-icon"></image>
+          大学留学
+        </view>
+      </view>
+      <view class="q-nrbodymiddle">
+        目前大学在读，普通二本，雅思7.5，想问下是继续考研国内的东南大学蒙纳苏州联合研究生院....
+      </view>
+      <view class="answerUser">
+        <image src="../../imgs/teacher3.png" class="techerIcon"></image>
+        <view>: 同学想要读什么语言 小语种还是？</view>
+      </view>
+      <text class="answer-bo" decode="{{true}}">2 回答&nbsp;&nbsp;.&nbsp;&nbsp;5 分钟前</text>
+    </view>
+    <view class="q-nr">
+      <view class="q-nrbodyTop">
+        <view class="icon-baoguo">
+          <image src="../../imgs/position.png" class="img-icon"></image>
+          待定
+        </view>
+        <view class="icon-baoguo">
+          <image src="../../imgs/topic.png" class="img-icon"></image>
+          大学留学
+        </view>
+      </view>
+      <view class="q-nrbodymiddle">
+        现在高三 了解到国外心理学比较好 想去留学有心理学专业好的学校推荐吗 预算不是很高
+      </view>
+      <view class="answerUser">
+        <image src="../../imgs/teacher5.png" class="techerIcon"></image>
+        <view>: 预算不高的话可以考虑日本呀~</view>
+      </view>
+      <view class="answer-bo">
+      5 回答  .  4小时前
+      </view>
+    </view>
+  </view>
+
+
+</view>

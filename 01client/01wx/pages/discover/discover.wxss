@@ -1,109 +1,111 @@
-.body {
+
+.body1 {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+ background-color:#ffff; 
 }
 .cover {
   width: 100%;
-  height: 140px;
-  margin-bottom: 10px;
+  height: 280rpx;
+  margin-bottom: 20rpx;
 }
 .back {
-  position: absolute;
+  position: fixed;
   left: 30rpx;
   top: 60rpx;
-  width: 20px;
-  height: 30px;
+  width: 40rpx;
+  height: 60rpx;
 }
 .back-img {
   width: 50rpx;
   height: 50rpx;
 }
 .view1 {
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 290px;
-  height: 30px;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  width: 690rpx;
+  height: 60rpx;
   display: flex;
   justify-content: space-between;
   white-space:nowrap;
 }
 .use {
-  width: 70px;
-  height: 30px;
+  width: 180rpx;
+  height: 60rpx;
   display:inline-block;
-  font-size: 16px;
+  font-size: 32rpx;
 }
 .video {
-  width: 70px;
-  height: 30px;
+  width: 180rpx;
+  height: 60rpx;
   display:inline-block;
-  font-size: 14px;
+  font-size: 28rpx;
 }
 .cover-img {
   width: 100%;
-  height: 140px;
+  height: 300rpx;
 }
 .animated {
-  width: 70px;
-  height: 30px;
+  width: 180rpx;
+  height: 60rpx;
   display:inline-block;
-  font-size: 14px;
+  font-size: 28rpx;
 }
 .news {
-  width: 70px;
-  height: 30px;
+  width: 160rpx;
+  height: 60rpx;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .underline {
   width: 100%;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 20px;
+  border-bottom: 2rpx solid #ccc;
+  margin-bottom: 40rpx;
 }
 .view2 {
-  font-size: 14px;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 290px;
-  height: 100px;
+  font-size: 28rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  width: 690rpx;
+  height: 240rpx;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 20rpx;
 }
 .foundation-img {
-  width: 100px;
-  height: 100px;
+  width: 240rpx;
+  height: 240rpx;
   border-radius: 5%;
   overflow: hidden;
 }
 .news-1 {
-  width: 100px;
-  height: 100px;
+  width: 240rpx;
+  height: 240rpx;
 }
 foundation-font {
-  margin-left: 10px;
-  width: 180px;
-  height: 100px;
+  margin-left: 20rpx;
+  width: 400rpx;
+  height: 240rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .f1 {
-  width: 180px;
-  height: 50px;
-  font-size: 14px;
+  width: 400rpx;
+  height: 100rpx;
+  font-size: 28rpx;
 }
 .f2 {
-  width: 180px;
-  height: 50px;
+  width: 400rpx;
+  height: 100rpx;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .f2-1 {
-  font-size: 12px;
+  font-size: 24rpx;
   color: #a7a4a4;
 }

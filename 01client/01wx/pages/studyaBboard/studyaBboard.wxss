@@ -1,0 +1,167 @@
+/* .topcontainer{
+  background: #F7F8FA;
+} */
+ .userIcon{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 30rpx;
+}
+.topuserIcon1{
+  padding-top: 60rpx;
+  position: absolute;
+  z-index: 100;
+} 
+.zong{
+  width: 100%;
+  background:#F7F8FA;
+  position: absolute;
+  z-index: -100000000000000000;
+}
+.u-wrp-bnr{
+  height: 480rpx;
+  width: 752rpx;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+.u-img-slide{
+  width: 770rpx;
+}
+.searchTab{
+position: absolute;
+z-index: 100;
+display: flex;
+height: 60rpx;
+width: 373rpx;
+background: rgb(235,236,238,0.7);
+border-radius: 15rpx;
+font-size: 32rpx;
+align-items: center;
+top: 711rpx;
+left: 145rpx;
+padding-left: 80rpx;
+color: #5E6263;
+
+}
+.search{
+  width: 35rpx;
+  height: 35rpx;
+  margin-right: 10rpx;
+}
+/*  .questiontab-contain{
+  height: 150rpx;
+  background: #F7F8FA;
+  position: relative;
+}  */
+.questiontab{
+  width: 600rpx;
+  height: 150rpx;
+  background: white;
+  margin: 420rpx auto 0;
+  border-radius: 30rpx;
+  box-shadow: 0 0 15rpx #cccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.que-nr{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.num{
+ font-weight: 600;
+}
+.text{
+  font-size: 30rpx;
+  color: #A7A8AA;
+}
+.mywrite{
+  position: absolute;
+  width: 110rpx;
+  height: 110rpx;
+  top: -40rpx;
+  border-radius: 50%;
+  box-shadow: 0 0 15rpx #2E84D7;
+}
+.textS{
+  position: absolute;
+  bottom: 8rpx;
+  font-size: 31rpx;
+}
+.mainbody{
+  background: #F7F8FA;
+}
+.q-square{
+  height: 170rpx;
+  display: flex;
+  justify-content: center;
+  margin-top: 50rpx;
+}
+.q-circle2{
+  width: 28rpx;
+  height: 21rpx;
+  background:  linear-gradient(to right, #B4CFEB , #1391FF);
+  border-radius: 45%;
+  margin: 0 25rpx;
+}
+.q-circle1{
+  width: 23rpx;
+  height: 16rpx;
+  background:  linear-gradient(to right, #EFC4CA , #FF4652);
+  border-radius: 45%;
+}
+.q-title{
+  font-weight: 600;
+  margin: 0 10rpx;
+}
+.img-icon{
+  width: 30rpx;
+  height: 30rpx;
+}
+.q-nrbodyTop{
+  display: flex;
+  margin: 0 0 10rpx 20rpx;
+}
+.q-nr{
+  width: 100%;
+/*   height: 270rpx; */
+  background: white;
+  margin-bottom: 20rpx;
+  padding-top: 20rpx;
+}
+.techerIcon{
+  width: 70rpx;
+  height: 50rpx;
+}
+.answerUser{
+  display: flex;
+  align-items: center;
+  margin: 5rpx 20rpx 10rpx 10rpx;
+  color: #3E3F41;
+  font-size: 29rpx;
+}
+.answer-bo{
+  display: flex;
+  align-items: center;
+  margin: 20rpx 20rpx 20rpx 20rpx;
+  font-size: 25rpx;
+  color: #BABCBB;
+}
+.icon-baoguo{
+  display: flex;
+  align-items: center;
+  height: 50rpx;
+  padding:0 10rpx; 
+  background: #F3F5F4;
+  border-radius: 30rpx;
+  font-size: 30rpx;
+  margin-right: 20rpx;
+}
+.q-nrbodymiddle{
+  margin: 10rpx 20rpx 10rpx 20rpx;
+  font-size: 33rpx;
+  font-weight: 550;
+  margin-top: 20rpx;
+}
